@@ -1,8 +1,8 @@
 var prompt = require('readline-sync');
-
 var userChoice = prompt.question(`Rock Paper Scissors?`);
-var computerChoice = Math.random(); //Math.random() selects a random number from 0 to 1
+var computerChoice = Math.random();
 var computer;
+
 if(computerChoice>=0&&computerChoice<=0.33){
 	computer = "rock";
 } else if(computerChoice>=0.34&&computerChoice<=0.66){
