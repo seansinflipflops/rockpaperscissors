@@ -1,3 +1,4 @@
-Rock Paper Scissors CLI
-  npm i
-  npm start
+#Rock Paper Scissors CLI
+  ```npm i```
+  
+  ```npm start```
