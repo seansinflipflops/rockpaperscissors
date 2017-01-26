@@ -1,2 +1,3 @@
-# rockpaperscissors
-rockpaperscissors made in js based on codecademy's model
+Rock Paper Scissors CLI
+  npm i
+  npm start
