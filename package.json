@@ -1,7 +1,7 @@
 {
   "name": "rockpaperscissors",
-  "version": "2.0.0",
-  "description": "CLI rockpaperscissors",
+  "version": "3.0.0",
+  "description": "CLI game rockpaperscissors",
   "main": "rockpaperscissors.js",
   "scripts": {
     "start": "node rockpaperscissors.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/seansinflipflops/rockpaperscissors.git"
   },
   "author": "Sean Ho <sean.ho.0103@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/seansinflipflops/rockpaperscissors/issues"
   },
