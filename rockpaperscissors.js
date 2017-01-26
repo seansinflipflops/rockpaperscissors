@@ -43,3 +43,7 @@ var compare = function(choice1, choice2){
 };
 
 compare(userChoice, computer);
+
+module.exports = {
+	compare: compare
+}

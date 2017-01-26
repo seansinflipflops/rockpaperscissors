@@ -5,13 +5,13 @@
   "main": "rockpaperscissors.js",
   "scripts": {
     "start": "node rockpaperscissors.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha rockpaperscissors.test.js -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seansinflipflops/rockpaperscissors.git"
   },
-  "author": "",
+  "author": "Sean Ho <sean.ho.0103@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/seansinflipflops/rockpaperscissors/issues"
@@ -19,5 +19,16 @@
   "homepage": "https://github.com/seansinflipflops/rockpaperscissors#readme",
   "dependencies": {
     "readline-sync": "^1.4.5"
-  }
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  },
+  "keywords": [
+    "rock",
+    "paper",
+    "scissors",
+    "CLI",
+    "game"
+  ]
 }
