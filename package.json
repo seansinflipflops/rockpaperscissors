@@ -1,0 +1,23 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "CLI rockpaperscissors",
+  "main": "rockpaperscissors.js",
+  "scripts": {
+    "start": "node rockpaperscissors.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seansinflipflops/rockpaperscissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seansinflipflops/rockpaperscissors/issues"
+  },
+  "homepage": "https://github.com/seansinflipflops/rockpaperscissors#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.5"
+  }
+}

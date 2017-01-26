@@ -1,40 +1,45 @@
-var userChoice = prompt("Rock, Paper or Scissors?")
-var computerChoice = Math.random() //Math.random() selects a random number from 0 to 1
+var prompt = require('readline-sync');
 
+var userChoice = prompt.question(`Rock Paper Scissors?`);
+var computerChoice = Math.random(); //Math.random() selects a random number from 0 to 1
+var computer;
 if(computerChoice>=0&&computerChoice<=0.33){
-	console.log("rock");
+	computer = "rock";
 } else if(computerChoice>=0.34&&computerChoice<=0.66){
-	console.log("paper");
+	computer = "paper";
 }else{
-	console.log("scissors");
+	computer = "scissors";
 };
 
-console.log("Computer: " + computerChoice);
+console.log("User chose:: ", userChoice)
+console.log("Computer chose:: ", computer)
 
-var compare = function(choice1,choice2){
-	if(choice1===choice2){
-		return "Tie!";
-		//if i tie, how do i make the game run again? 
+var compare = function(choice1, choice2){
+  var result;
+	if(choice1 === choice2){
+		result = "Tie!";
+		//if i tie, how do i make the game run again?
 	} else if (choice1==="rock"){
 		if(choice2==="scissors"){
-			return "Rock wins!";
+			result = "User wins!";
 		} else {
-			return "Paper wins!";
+			result = "Computer wins!";
 		}
 	} else if(choice1==="paper"){
 		if(choice2==="rock"){
-			return "Paper wins!";
+			result = "User wins!";
 		} else{
-			return "Scissors wins!";
+			result = "Computer wins!";
 		}
 	} else if(choice1==="scissors"){
 		if(choice2==="paper"){
-			return "Scissors wins!";
+			result = "User wins!";
 		} else{
-			return "Rock wins!";
+			result = "Computer wins!";
 		}
 	}
+  console.log(result);
+  return result;
 };
 
-compare(userChoice,computerChoice);
-
+compare(userChoice, computer);
