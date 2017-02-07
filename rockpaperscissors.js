@@ -21,19 +21,19 @@ var compare = function(choice1, choice2){
 		//if i tie, how do i make the game run again?
 	} else if (choice1==="rock"){
 		if(choice2==="scissors"){
-			result = "User wins!";
+			result = "You win!";
 		} else {
 			result = "Computer wins!";
 		}
 	} else if(choice1==="paper"){
 		if(choice2==="rock"){
-			result = "User wins!";
+			result = "You win!";
 		} else{
 			result = "Computer wins!";
 		}
 	} else if(choice1==="scissors"){
 		if(choice2==="paper"){
-			result = "User wins!";
+			result = "You win!";
 		} else{
 			result = "Computer wins!";
 		}
@@ -42,7 +42,7 @@ var compare = function(choice1, choice2){
   return result;
 };
 
-compare(userChoice, computer);
+compare(userChoice.toLowerCase(), computer);
 
 module.exports = {
 	compare: compare

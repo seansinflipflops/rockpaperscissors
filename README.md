@@ -2,7 +2,7 @@
   [![npm](https://img.shields.io/npm/dt/rockpaperscissors.svg)](https://www.npmjs.com/package/rockpaperscissors)
   [![npm](https://img.shields.io/npm/v/npm.svg)]()
 
-  After installation
+  ##Getting Started
 
   copy into package.json::
 
@@ -11,3 +11,8 @@
   to run::
 
   ```npm start```
+
+  ##Playing
+
+  Type 'rock', 'paper', or 'scissors' and see who wins!
+  
