@@ -1,5 +1,5 @@
 #Rock Paper Scissors CLI
-  https://img.shields.io/travis/seansinflipflops/rockpaperscissors.svg
+  https://img.shields.io/travis/seansinflipflops/rockpaperscissors
   After installation
 
   copy into package.json::
