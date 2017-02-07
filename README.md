@@ -1,10 +1,11 @@
 #Rock Paper Scissors CLI
-  After installation 
-  
+  https://img.shields.io/travis/seansinflipflops/rockpaperscissors.svg
+  After installation
+
   copy into package.json::
-  
+
   ```"start": "node node_modules/rockpaperscissors/rockpaperscissors.js",```
-  
-  to run:: 
-  
+
+  to run::
+
   ```npm start```
