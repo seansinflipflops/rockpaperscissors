@@ -1,8 +1,9 @@
 var prompt = require('readline-sync');
-var userChoice = prompt.question(`Rock Paper Scissors?`);
+var userChoice = prompt.question(`Rock Paper Scissors? `);
+
+//Computer
 var computerChoice = Math.random();
 var computer;
-
 if(computerChoice>=0&&computerChoice<=0.33){
 	computer = "rock";
 } else if(computerChoice>=0.34&&computerChoice<=0.66){
@@ -14,11 +15,11 @@ if(computerChoice>=0&&computerChoice<=0.33){
 console.log("User chose:: ", userChoice)
 console.log("Computer chose:: ", computer)
 
+//RoShamBo!
 var compare = function(choice1, choice2){
   var result;
 	if(choice1 === choice2){
-		result = "Tie!";
-		//if i tie, how do i make the game run again?
+		result = "It's a tie!";
 	} else if (choice1==="rock"){
 		if(choice2==="scissors"){
 			result = "You win!";
@@ -42,6 +43,7 @@ var compare = function(choice1, choice2){
   return result;
 };
 
+//RoShamBo go!
 compare(userChoice.toLowerCase(), computer);
 
 module.exports = {
