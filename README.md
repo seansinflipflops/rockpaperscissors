@@ -16,4 +16,4 @@
   ```
 
 ## Playing
-  Type ```rock paper or scissors```
+  Type ```rock``` ```paper``` or ```scissors```
