@@ -2,4 +2,4 @@
 
 "use strict";
 
-exports = require('../tictactoe');
+exports = require('../rockpaperscissors');
