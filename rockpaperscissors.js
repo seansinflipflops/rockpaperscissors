@@ -1,3 +1,5 @@
+"use strict";
+
 var prompt = require('readline-sync');
 var userChoice = prompt.question(`Rock Paper Scissors? `);
 
@@ -45,7 +47,7 @@ var compare = function(choice1, choice2){
 
 //RoShamBo go!
 compare(userChoice.toLowerCase(), computer);
-
-module.exports = {
-	compare: compare
-}
+//
+// module.exports = {
+// 	compare: compare
+// }
