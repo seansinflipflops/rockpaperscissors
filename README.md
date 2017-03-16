@@ -4,16 +4,16 @@
   [![npm](https://img.shields.io/npm/l/rockpaperscissors.svg)]()
 
 
-## Getting Started
+## Install
+  ```
+  npm i -g rockpaperscissors
+  ```
 
-  copy into package.json::
+## Usage
 
-  ```"start": "node node_modules/rockpaperscissors/rockpaperscissors.js",```
-
-  to run::
-
-  ```npm start```
+  ```
+  rockpaperscissors
+  ```
 
 ## Playing
-
-  Type 'rock', 'paper', or 'scissors' and see who wins!
+  Type ```rock paper or scissors```
