@@ -3,6 +3,11 @@
   "version": "4.0.4",
   "description": "CLI game rockpaperscissors",
   "main": "rockpaperscissors.js",
+  "preferGlobal":  "true",
+  "main": "rockpaperscissors.js",
+  "bin":{
+    "test-module-exec": "rockpaperscissors.js"
+  },
   "scripts": {
     "start": "node rockpaperscissors.js",
     "test": "mocha rockpaperscissors.test.js -w"
