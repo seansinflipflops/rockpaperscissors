@@ -62,13 +62,16 @@ while(play === true || play === undefined) {
 
   //RoShamBo go!
   compare(userChoice, computer);
-  let playAgain = prompt.question('Play again? y/n ');
+  let playAgain = prompt.question('Play again? y/n ').toLowerCase();
 
-  if(playAgain === 'y') {
-    play = true;
-  } else if(playAgain === 'n'){
-    play = false;
+  while(playAgain !== 'y' && playAgain !== 'n' && playAgain !== 'yes' && playAgain !== 'no') {
+    playAgain = prompt.question('Play again? y/n ').toLowerCase();
   }
+    if(playAgain === 'y' || playAgain === 'yes') {
+      play = true;
+    } else if(playAgain === 'n' || playAgain === 'no'){
+      play = false;
+    }
 }
 
 console.log('Bye-bye!')
