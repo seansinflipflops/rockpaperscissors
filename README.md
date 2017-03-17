@@ -1,4 +1,4 @@
-#Rock Paper Scissors CLI
+# Rock Paper Scissors CLI
   [![npm](https://img.shields.io/npm/dt/rockpaperscissors.svg)](https://www.npmjs.com/package/rockpaperscissors)
   [![npm](https://img.shields.io/npm/v/rockpaperscissors.svg)]()
   [![npm](https://img.shields.io/npm/l/rockpaperscissors.svg)]()
