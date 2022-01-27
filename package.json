@@ -3,9 +3,8 @@
   "version": "5.0.0",
   "description": "CLI game rockpaperscissors",
   "main": "rockpaperscissors.js",
-  "preferGlobal":  "true",
-  "main": "rockpaperscissors.js",
-  "bin":{
+  "preferGlobal": "true",
+  "bin": {
     "rockpaperscissors": "./bin/rockpaperscissors"
   },
   "scripts": {
