@@ -1,6 +1,6 @@
 {
   "name": "rockpaperscissors",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "CLI game rockpaperscissors",
   "main": "rockpaperscissors.js",
   "preferGlobal": "true",
