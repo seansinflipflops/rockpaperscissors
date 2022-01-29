@@ -24,9 +24,6 @@
   "dependencies": {
     "readline-sync": "^1.4.5"
   },
-  "devDependencies": {
-    "chai": "3.5.0"
-  },
   "keywords": [
     "rock",
     "paper",
