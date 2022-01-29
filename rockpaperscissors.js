@@ -40,7 +40,7 @@ const computerChoice = () => {
 }
 
 while(play === true || play === undefined) {
-  let userChoice = prompt.keyIn(`Rock Paper Scissors! press (r, p, s)`).toLowerCase();
+  let userChoice = prompt.keyIn("Rock Paper Scissors! press (r, p, s) ").toLowerCase();
 
   while (userChoice !== 'rock' && 
     userChoice !== 'paper' &&
@@ -49,7 +49,7 @@ while(play === true || play === undefined) {
     userChoice !== 'p' &&
     userChoice !== 's'
   ) {
-    userChoice = prompt.keyIn(`Rock Paper Scissors! press (r, p, s)`).toLowerCase();
+    userChoice = prompt.keyIn("Rock Paper Scissors! press (r, p, s) ").toLowerCase();
   }
 
   if(userChoice === 'r') {
